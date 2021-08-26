@@ -13,7 +13,7 @@ bot = commands.Bot(command_prefix = "test:")
 
 @bot.event
 async def on_ready():
-	await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name=("my partents fightng")))
+	await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name=("my parents fightng")))
 	print("Connected and ready to talk!")
 	
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
